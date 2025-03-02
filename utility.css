@@ -1,0 +1,81 @@
+.flex{
+    display: flex;
+}
+
+.invert{
+    filter: invert(0.6);
+}
+
+.invertCom{
+    filter: invert(1);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b3b3b3;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+/* Ensures scrollbar buttons (up/down arrows) are hidden */
+::-webkit-scrollbar-button {
+    height: 0;
+    width: 0;
+    display: none;
+}
+
+/* For Firefox */
+* {
+    scrollbar-color: #b3b3b3 transparent;
+    scrollbar-width: thin;
+}
+
+.scroll-container {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #b3b3b3;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: #1a1a1a;
+    margin: 50px auto;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+
+.left.collapsed {
+    width: 6.7vw !important;
+}
+
+.left.expanded {
+    min-width: 30vw !important;
+}
+
+.right.expanded {
+    width: 100vw !important;
+    margin-left: 31vw !important;
+}
+
+.right.collapsed {
+    width: 91vw !important;
+    margin-left: 9vw !important;
+}
+
+
+
+
+
+
+
+
+
