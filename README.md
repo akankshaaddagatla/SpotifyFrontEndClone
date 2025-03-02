@@ -29,7 +29,7 @@ A simple Spotify clone built using HTML, CSS, and JavaScript.
    ```
 2. Navigate to the project folder:
    ```sh
-   cd spotify-clone
+   cd SpotifyFrontEndClone
    ```
 3. Open `index.html` in your browser.
 
